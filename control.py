@@ -16,12 +16,11 @@ elif count == 3:
     array=array_beta
 elif count > 3 :
     count_2=0
+    array_beta=[]
     for i in array:
         count_2+=1
-        if count_2 > 1:
-            array_beta=[]
-            for y in range(0,3):
-                array_beta.append(i)
+        if count_2 > 1 and count_2 < 5:
+            array_beta.append(i)
     array=array_beta
 print(array)
 
